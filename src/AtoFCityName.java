@@ -25,7 +25,7 @@ public class AtoFCityName {
         else if (alphabet.equalsIgnoreCase("e")){
             System.out.println("Erandol");
         }
-        //if alphabet e or f then print city name F
+        //if alphabet f or F then print city name F
         else if (alphabet.equalsIgnoreCase("f")){
             System.out.println("Faridabad");
         } else {
