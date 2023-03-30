@@ -19,13 +19,13 @@ public class Sales_Details {
         if (sales_amount>=50000){
             System.out.println("Your commission is:"+(sales_amount*35/100));
             //if amount is more than 30000
-        } else if (sales_amount>=30000 && sales_amount<50000) {
+        } else if (sales_amount>=30000) {
             System.out.println("Your commission is:"+(sales_amount*20/100));
             //if amount is more than 20000
-        } else if (sales_amount>=20000 && sales_amount<30000) {
+        } else if (sales_amount>=20000) {
             System.out.println("Your commission is:"+(sales_amount*10/100));
             //if amount is more than 10000
-        } else if (sales_amount>=10000 && sales_amount<20000) {
+        } else if (sales_amount>=10000) {
             System.out.println("Your commission is: "+(sales_amount*5/100));
             //if amount is less than 10000
         } else if (sales_amount<10000){
